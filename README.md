@@ -33,6 +33,7 @@ A neural network must have **at least one hidden layer** with a **nonlinear acti
 
 ## 📂 Project Structure
 
+```
 NN-XOR/
 │
 ├── activation.py # Activation function interface
@@ -43,7 +44,7 @@ NN-XOR/
 ├── network.py # Neural network class
 ├── xor.py # Entry point to train XOR
 └── README.md # You're reading it!
-
+```
 
 ---
 
@@ -51,7 +52,10 @@ NN-XOR/
 
 ```bash
 python xor.py
+```
+## 🧪 Output Example
 
+```
 Epoch 10000 - Loss: 0.0023
 Predictions:
 Input: [0, 0] → 0.01
@@ -59,11 +63,20 @@ Input: [0, 1] → 0.98
 Input: [1, 0] → 0.97
 Input: [1, 1] → 0.02
 
-🧰 Requirements
+```
+---
+
+## 🧰 Requirements
+```
 Python 3.x
 
 No external libraries (pure Python)
+```
 
-✏️ Author
+---
+
+## ✏️ Author
+```
 Created by Prasanth
+```
 
